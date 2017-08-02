@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "PatientsParser": {
+      "commandName": "Project",
+      "commandLineArgs": "patients.dat 0",
+      "environmentVariables": {
+        "DB_CONNECTION": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Patients;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+      }
+    }
+  }
+}
